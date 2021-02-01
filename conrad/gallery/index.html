@@ -1,0 +1,22 @@
+---
+layout: master
+---
+
+<h1>Headshots</h1>
+{% for pic in site.data.headshots %}
+<span class="imgwrapper">
+	<img src="{{ pic.src }}" alt="{{ pic.alt }}">
+</span>
+{% endfor %}
+
+<h1>More Images</h1>
+{% for pic in site.data.otherpics %}
+	<figure>
+    <span class="imgwrapper">
+      <img src="{{ pic.src }}" alt="{{ pic.alt }}">
+    </span>
+		<figcaption>
+			<p>{{ img.caption}}</p>
+		</figcaption>
+	</figure>
+{% endfor %}

@@ -1,0 +1,13 @@
+---
+layout: master
+---
+
+{% for type in site.data.videos %}
+  <h2>{{ type.name }}</h2>
+  {% for video in type.videos %}
+    <h3 class="title">{{ video.name }}</h3>
+    <video controls width="420px">
+      <source src="{{ video.source }}" type="video/mp4">
+    </video>
+  {% endfor %}
+{% endfor %}

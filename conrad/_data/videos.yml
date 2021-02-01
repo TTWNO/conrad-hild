@@ -1,0 +1,43 @@
+# heading 1: films and videos:
+#   films
+#     #1 Meet Me At Christmas
+#     #2 The tin Star
+#     #3 Hell on Wheels
+#   videos
+#     #1 cause of death
+#     #2 real estate council of alberta
+#     #3 transit production (mel's flashback form vimeo)
+#     #4 3th street SW underpass enhancment CGY
+#   commercials/PSA's
+#     #1 Pindrop hearing
+#     #2 Work right Akberta
+#     #3 Saftey in the center city
+#     #4 Center street church PSA (from Vimeo)
+- name: "Films"
+  videos:
+    - name: "Meet Me At Christmas"
+      source: "/assets/videos/meetMeAtChristmas.mp4"
+    - name: "Tin?"
+      source: ""
+    - name: "Hell On Wheels"
+      source: "/assets/videos/hellOnWheels.mp4"
+- name: "Videos"
+  videos:
+    - name: "Cause of Death"
+      source: "/assets/videos/causeOfDeath.mp4"
+    - name: "Real Estate ?"
+      source: ""
+    - name: "Transit ??"
+      source: ""
+    - name: "3rd Street SW Underpass"
+      source: "/assets/videos/4thStreetSWUnderpassEnhancement.mp4"
+- name: "Commercials / PSAs"
+  videos:
+    - name: "Pindrop Hearing"
+      source: "/assets/videos/pindrop.mp4"
+    - name: "Work Right Alberta"
+      source: "/assets/videos/albertaWorkRight.mp4"
+    - name: "Saftey in The Center City"
+      source: "/assets/videos/safetyInCentreCity.mp4"
+    - name: "Center Street Church?"
+      source: ""

@@ -1,0 +1,13 @@
+---
+layout: master
+---
+
+{% for v in site.data.voicework %}
+<div class="split center">
+  <audio controls class="vert-cen">
+    <source src="{{ v.src }}" type="audio/mp3">
+    Your browser does not support audio.
+  </audio>
+  <h2 class="title">{{ v.title }}</h2>
+</div>
+{% endfor %}
