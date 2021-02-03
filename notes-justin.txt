@@ -1,0 +1,10 @@
+Color: prefect! But h1 title big and to the left, subtitle should be italic, small no bold left just.
+
+Home is A-OK!
+Gallery is good but too big, make into 3/4 per row.
+More should be screenshots from the videos, 3, 4 or 5.
+Voice work: Qualico homes header, no specific titles.
+Contact: A-OK! bigger contact.
+
+My note: add better scaling, image seems to not adhere to 50% :(
+user: gird-template-columns: 50% 50%;

@@ -1,0 +1,23 @@
+<table>
+  <thead>
+    <tr>
+      {% for fh in site.data.resume.fat_head %}
+      <th>{{ fh.h }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+{% for comm in site.data.resume.comm %}
+  <tr>
+    <td>
+      <span>{{ comm.title }}</span>
+    </td>
+    <td>
+      <span>{{ comm.role }}</span>
+    </td>
+    <td>
+      <span>{{ comm.company }}/{{ comm.contact }}</span>
+    </td>
+{% endfor %}
+  </tbody>
+</table>

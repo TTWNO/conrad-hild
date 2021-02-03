@@ -1,0 +1,12 @@
+<table>
+  <thead>
+    <tr>
+      {% for header in headers %}
+        <th>{{ header.h }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {{ content }}
+  </tbody>
+</table>
