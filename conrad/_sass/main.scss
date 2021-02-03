@@ -9,7 +9,7 @@ body {
 }
 #wrapper {
   background-color: white;
-  padding: 12px;
+  padding: 16px;
   width: 80%;
   margin: auto;
 }
@@ -56,6 +56,13 @@ video {
   align-items: center;
   min-height: 80%;
   padding: 12px;
+}
+.name-title {
+  text-align: left;
+}
+.name-desc {
+  text-align: left;
+  font-weight: normal;
 }
 img {
   width: 95%;
