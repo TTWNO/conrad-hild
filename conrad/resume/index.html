@@ -1,8 +1,27 @@
 ---
 layout: master
+title: "Resume"
 ---
 
-<h2>Films And Television</h2>
-{% include films-and-tv.html %}
-<h2>Commercials</h2>
-{% include commercials.html %}
+
+<div id="resume">
+  <div id="title-file">
+    <h1>Resume</h1>
+    <a href="/assets/pdf/resume.pdf">Download as file</a>
+  </div>
+  <h2>Appearance</h2>
+  {% include phys.html %}
+  <hr/>
+  <h2>Films And Television</h2>
+  {% include films-and-tv.html %}
+  <h2>Commercials</h2>
+  {% include commercials.html %}
+  <h2>Theater</h2>
+  {% include theater.html %}
+  <h2>Voice Work</h2>
+  {% include voicework.html %}
+  <h2 class="smallheader">Training</h2>
+  {% include training.html %}
+  <h2 class="smallheader">Special Skills</h2>
+  {% include special-skills.html %}
+</div>

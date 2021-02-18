@@ -1,0 +1,21 @@
+<table class="training">
+  <thead class="visually-hidden">
+    <tr>
+      {% for fh in site.data.resume.training_head %}
+      <th>{{ fh.h }}</th>
+      {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+{% for training in site.data.resume.training %}
+  <tr>
+    <td colspan="2">
+      <span>&#x25cf; {{ training.name }}</span>
+    </td>
+    <td>
+      <span>{{ training.institution }}</span>
+    </td>
+  </tr>
+{% endfor %}
+  </tbody>
+</table>

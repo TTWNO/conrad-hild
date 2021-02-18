@@ -3,18 +3,11 @@ layout: master
 title: "Contact"
 ---
 
-<div class="split">
-  <span>
-    <img src="/assets/img/0002.jpg" alt="Conrad Hild">
-  </span>
-	<span>
-		<p>Please feel free to contact me at the following email and street address:</p>
-		<address class="center">
-      Email: test@test.test<br>
-      Address: 123 Main St.<br>
-      City: Calgary<br>
-      Province: Alberta<br>
-      Country: Canada<br>
-		</address>
-	</span>
+<div>
+<img src="/assets/img/0002.jpg" alt="Conrad Hild" class="center smallpic">
 </div>
+<span class="center">
+	<p>Please feel free to contact me at the following email and street address:<br><br>
+	Email: <a href="mailto:{{ site.data.info.email }}">{{ site.data.info.email }}</a>.<br>
+	Address: 123 Main St.<br>Calgary, Alberta, Canada, A1B2C3
+</span>
